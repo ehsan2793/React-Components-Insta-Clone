@@ -9,7 +9,7 @@ import React ,{useState} from 'react';
 // Import the Posts (plural!) and SearchBar components, since they are used inside App component
 import SearchBar from './components/SearchBar/SearchBar.js'
 import Posts from './components/Posts/Posts'
-// Import the dummyData
+// Import the dummyData 
 import dummyData from './dummy-data'
 import './App.css';
 
@@ -30,7 +30,7 @@ const App = () => {
         return {...post , likes: (post.likes + 1)}
       } else {
         return post
-      }
+      } 
     })
     setPosts(updatePost);
    }
